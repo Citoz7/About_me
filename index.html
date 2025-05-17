@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>   
+                <div class="logo">Portfolio</div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1> <span class="highlight">Bayu Maha Resi</span></h1>
+                <p class="typed-text">I'm a <span id="typed"></span></p>
+                <div class="hero-description">
+                    <p>Developer yang suka merancang tampilan web yang simpel, menarik, dan mudah digunakan</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#portfolio" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tentang Saya</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                   <div class="img-placeholder" style="background: none;">
+                    <img src="asset/image/Foto.png" alt="Foto Profil" style="
+                    width: 70%;
+                    height: auto;
+                    object-fit: cover;
+                    border-radius: 1%;">
+                </div>
+                </div>
+                <div class="about-text">
+                    <p>Mahasiswa Diploma Jurusan Teknologi Informasi di Universitas Brawijaya yang teliti, terorganisir dan memiliki pemahaman yang baik di bidang teknologi informasi.</p>
+                    <p>Berpengalaman dalam pengembangan dan desain website serta memahami regulasi yang berkaitan dengan teknologi. Memiliki kemampuan multitasking, perhatian terhadap detail dan mahir menggunakan berbagai perangkat lunak untuk meningkatkan efisiensi kerja.</p>
+                    <h3>Minat</h3>
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>Web Developer</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-paint-brush"></i>
+                            <span>UI/UX Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Portfolio</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="portfolio-links">
+                <a href="https://github.com/Citoz7" target="_blank" class="portfolio-link">
+                    <div class="portfolio-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>Check out my code repositories</p>
+                </a>
+                <a href="https://www.figma.com/design/l6WUw7JNm1TaFjI2MnpukA/Untitled?node-id=1-2&t=4YGjiUDTtZZOkhuQ-1" target="_blank" class="portfolio-link">
+                    <div class="portfolio-icon">
+                        <i class="fab fa-figma"></i>
+                    </div>
+                    <h3>Figma</h3>
+                    <p>View my design projects</p>
+                </a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank" class="portfolio-link">
+                    <div class="portfolio-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>Connect with me professionally</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Kontak Saya</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:bayumaharesi@gmail.com">bayumaharesi@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="details">
+                            <h3>No.Telpon</h3>
+                            <p><a href="tel:+6285706048034">0857-0604-8034</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="details">
+                            <h3>Lokasi</h3>
+                            <p>Dieng atas / Sumber Kalisongo, Kab. Malang, Jawa Timur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Bayu Maha Resi. Terima Kasih.</p>
+                <div class="back-to-top">
+                    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        document.getElementById('mobile-menu').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                // Close mobile menu if open
+                document.querySelector('.nav-menu').classList.remove('active');
+                document.getElementById('mobile-menu').classList.remove('active');
+            });
+        });
+
+        // Typing effect
+        const typedTextSpan = document.querySelector("#typed");
+        const textArray = ["Web Developer", "UI/UX Design"];
+        let textArrayIndex = 0;
+        let charIndex = 0;
+
+        function type() {
+            if (charIndex < textArray[textArrayIndex].length) {
+                typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(type, 100);
+            } else {
+                setTimeout(erase, 1000);
+            }
+        }
+
+        function erase() {
+            if (charIndex > 0) {
+                typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+                charIndex--;
+                setTimeout(erase, 50);
+            } else {
+                textArrayIndex++;
+                if(textArrayIndex >= textArray.length) textArrayIndex = 0;
+                setTimeout(type, 500);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(type, 500);
+        });
+
+        // Active navigation highlighting
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll(".nav-menu a");
+
+        window.addEventListener("scroll", () => {
+            let current = "";
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop) {
+                    current = section.getAttribute("id");
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove("active");
+                if (link.getAttribute("href").includes(current)) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
+</body>
+</html>
